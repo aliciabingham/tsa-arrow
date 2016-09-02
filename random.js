@@ -8,13 +8,10 @@ function randomFunction() {
 var random = Math.ceil(Math.random(15) * 10);
 
   if (random < 5 || random === 5) {
-//to ensure the numbers are random
-    console.log(random)
     output.classList.add("arrow-right");
     output.classList.remove("arrow-left");
+
   } else if (random > 6 || random === 6) {
-//to ensure the numbers are random
-    console.log(random)
     output.classList.add("arrow-left");
     output.classList.remove("arrow-right");
   }
