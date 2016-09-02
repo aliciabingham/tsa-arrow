@@ -1,0 +1,31 @@
+body {
+  max-width: 960;
+  margin: 0 auto;
+}
+
+#output {
+  margin: 0 auto;
+}
+
+button {
+  margin-left: 46%;
+
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+
+  border-left: 100px solid green;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+
+  border-right:100px solid blue;
+}
